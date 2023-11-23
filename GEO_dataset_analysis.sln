@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GEO_information_parse", "GEO_information_parse\GEO_information_parse.pyproj", "{8D362232-F2D2-4E79-A7FD-7A843A38B91B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Visual_analysis", "Visual_analysis\Visual_analysis.pyproj", "{07559C63-8342-4AE0-9C26-15BB824A7D47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D362232-F2D2-4E79-A7FD-7A843A38B91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D362232-F2D2-4E79-A7FD-7A843A38B91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07559C63-8342-4AE0-9C26-15BB824A7D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07559C63-8342-4AE0-9C26-15BB824A7D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5300AA34-492D-4882-8CD0-FBBD8B636AE8}
+	EndGlobalSection
+EndGlobal
