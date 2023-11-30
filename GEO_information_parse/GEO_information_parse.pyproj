@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8d362232-f2d2-4e79-a7fd-7a843a38b91b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GEO_information_parse.py</StartupFile>
+    <StartupFile>..\..\PythonApplication1\PythonApplication1\geo_parse_v3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\PythonApplication1\PythonApplication1\geo_parse_v3.py">
+      <Link>geo_parse_v3.py</Link>
+    </Compile>
     <Compile Include="GEO_information_parse.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
