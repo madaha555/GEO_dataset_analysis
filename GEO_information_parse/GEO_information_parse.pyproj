@@ -21,9 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\PythonApplication1\PythonApplication1\geo_parse_v3.py">
-      <Link>geo_parse_v3.py</Link>
-    </Compile>
+    <Compile Include="geo_parse_v3.py" />
     <Compile Include="GEO_information_parse.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
